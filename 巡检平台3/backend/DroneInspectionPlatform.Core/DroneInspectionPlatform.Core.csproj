@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DroneInspectionPlatform.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion.DatabaseAccessor" Version="4.8.12" />
+    <PackageReference Include="SqlSugar" Version="5.1.4.153" />
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DroneInspectionPlatform.Server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion" Version="4.8.12" />
+    <PackageReference Include="Furion.DatabaseAccessor" Version="4.8.12" />
+    <PackageReference Include="SqlSugar" Version="5.1.4.153" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DroneInspectionPlatform.Core\DroneInspectionPlatform.Core.csproj" />
+    <ProjectReference Include="..\DroneInspectionPlatform.Application\DroneInspectionPlatform.Application.csproj" />
+    <ProjectReference Include="..\DroneInspectionPlatform.Entity\DroneInspectionPlatform.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
